@@ -1,13 +1,13 @@
-package sample.cafekiosk2;
+package sample.cafekiosk.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Cafekiosk2Application {
+public class CafekioskApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Cafekiosk2Application.class, args);
+        SpringApplication.run(CafekioskApplication.class, args);
     }
 
 }

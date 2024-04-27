@@ -1,10 +1,10 @@
-package sample.cafekiosk2;
+package sample.cafekiosk;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Cafekiosk2ApplicationTests {
+class CafekioskApplicationTests {
 
     @Test
     void contextLoads() {
