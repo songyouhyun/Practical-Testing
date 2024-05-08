@@ -7,8 +7,6 @@ import org.springframework.test.context.ActiveProfiles;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@ActiveProfiles("test")
-@DataJpaTest
 class ProductTypeTest {
 
     @DisplayName("상품 타입이 재고 관련 타입인지 체크한다.")

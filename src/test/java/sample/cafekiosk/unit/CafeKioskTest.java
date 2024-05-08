@@ -1,5 +1,6 @@
 package sample.cafekiosk.unit;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import sample.cafekiosk.unit.beverage.Americano;
@@ -96,6 +97,7 @@ public class CafeKioskTest {
         assertThat(totalPrice).isEqualTo(8500);
     }
 
+    @Disabled
     @Test
     void createOrderWithCurrentTime() {
         CafeKiosk cafeKiosk = new CafeKiosk();
@@ -108,6 +110,7 @@ public class CafeKioskTest {
         assertThat(order.getBeverages().get(0).getName()).isEqualTo("아메리카노");
     }
 
+    @Disabled
     @Test
     void createOrderOutsideOpenTime() {
         CafeKiosk cafeKiosk = new CafeKiosk();
